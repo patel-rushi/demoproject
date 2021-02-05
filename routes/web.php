@@ -16,7 +16,7 @@ use Illuminate\Support\Str;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/index.php/hello', function () {
+Route::get('/hello', function () {
     return view('hello');
 });
 Route::get('/world', function () {
